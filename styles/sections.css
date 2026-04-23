@@ -21,8 +21,12 @@
         
     figcaption{
       position: absolute;
-      bottom:0 ;
-      padding: 20px;
+      bottom: 0px; ;
+      padding: 18px;
+
+      &:has(.text-lg){
+        padding: 8px;
+      }
       h2{
       margin-top: 8px; 
       }
